@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #1E4D6B, #32AC98);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            width: 320px;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile {
+            width: 80px;
+            height: 80px;
+            background: url('img/pp.jpeg') no-repeat center center/cover;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .username {
+            color: white;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .button {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            text-align: center;
+            background: transparent;
+            color: white;
+            font-size: 13px;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 400;
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+        .footer {
+            font-size: 10px;
+            color: white;
+            margin-top: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile"></div>
+        <a href="https://www.tiktok.com/@.cactus_art?is_from_webapp=1&sender_device=pc"><div text-decoration="none" class="username">@cactus art</div></a>
+        <a href="#" class="button">#1 | pensil warna deli</a>
+        <a href="#" class="button">#2 | pensil deli</a>
+        <a href="#" class="button">#3 | pensil graphite deli</a>
+        <a href="https://saweria.co/aapiin" class="button">DONATE ME</a>
+        <div class="footer">&copy; Copyright alfinsigantengkalem.<br> All Rights Reserved</div>
+    </div>
+</body>
+</html>
